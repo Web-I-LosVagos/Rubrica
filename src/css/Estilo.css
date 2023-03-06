@@ -228,7 +228,7 @@ h1.titulo{
   display: flex;
   height: 100vh;
   float: left;
-  width: 23%;
+  width: 33%;
   padding: 0 10px;
 }
 
@@ -250,7 +250,11 @@ h1.titulo{
 }
 
 .Container{
+  background-image: url("../src/Rúbrica 1er corte - Landing Page/Rectangle 13.png");
+  width: 78%;
+  max-width: 1200px;
+  margin: auto;
   display: flex;
-   height: 100vh;
+  height: 100vh;
    justify-content: center;
 }
