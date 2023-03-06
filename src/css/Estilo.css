@@ -2,6 +2,17 @@
   box-sizing: border-box;
 }
 
+p, h3 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+h2 {
+  font-family: 'Playfair Display';
+  font-size: 24px;
+}
+
 body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
@@ -76,7 +87,93 @@ nav .mobile .header a {
   text-decoration: none;
   padding: 10px;
 }
-@media screen and (max-width: 915px) {
+
+/* SECCION RONALDO */
+.testament {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(1, 1fr);
+    height: auto;
+    margin-bottom: 65px;
+    align-items: center;
+    justify-content: center;
+}
+  
+.text {
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+  
+.testament .text p {
+  font-size: 38px;
+  font-style: normal;
+  color:  #331B3B;
+  text-align: center;
+}
+
+.cards {
+  margin: 0 auto;
+  float: center;
+  width: 60%;
+  height: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 350px);
+  align-items: center;
+  justify-content: space-around;
+}
+
+.box {
+  width: 90%;
+  height: 230px;
+  background-color: rgb(253, 253, 253);
+  overflow: hidden;
+  margin: 25px 0 0 35px;
+}
+
+.box .autor p{
+  color: #FDC221;
+}
+
+.box .autor b{
+  color: #000000;
+}
+
+/* FOOTER */
+.pie {
+  background: #000000;
+  border-top-right-radius: 116px;
+  display: grid;
+  width: 100%;
+  height: auto;
+  grid-template-columns: repeat(2, 1fr);
+  margin: auto;
+}
+
+.pie .formulario {
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+
+.pie .formulario button {
+  width: 180px;
+  height: 30px;
+  background-color: #FE9A22;
+  color: #eeee;
+  font-style: bold;
+  cursor: pointer;
+}
+
+.pie p {
+  color: #ffff;
+  text-align: left;
+}
+
+.pie h2 {
+  color: #ffff;
+}
+
+@media screen and (max-width: 800px) {
   nav {
     width: 100%;
     padding: 0;
@@ -89,4 +186,15 @@ nav .mobile .header a {
   nav .mobile {
     display: block;
   }
+  
+  .cards {
+    width: 80%;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  
+  .pie {
+    width: 110%;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  
 }
