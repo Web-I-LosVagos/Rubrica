@@ -238,14 +238,25 @@ h1.titulo{
   text-align: center;
 }
 
+.autor{
+  text-align: start;
+}
+
+.pie a{
+  color:aliceblue;
+  border-radius: 10%;
+  text-align: end;
+}
+
 .tarjeta{
+  background-color: white;
   display:flex;
   flex-direction:column;
   justify-content:space-between;
   width:100%;
   border: 1px solid lightgray;
   box-shadow: 1px 1px 8px 4px #d3d3d3d1;
-  /* border-radius:15px; */
+   border-radius:10px;
   font-family: 'Hind Vadodara';
 }
 
@@ -258,7 +269,7 @@ h1.titulo{
   margin: auto;
   display: flex;
   height: 100vh;
-   justify-content: center;
+  justify-content: center;
 }
 
 .titulo{
@@ -267,5 +278,5 @@ h1.titulo{
 }
 
 /* .imag-derecha{
-  grid-template-areas:2 1fr;
+  grid-template-areas: 1fr;
 } */
