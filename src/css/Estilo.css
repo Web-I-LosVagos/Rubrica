@@ -102,6 +102,16 @@ letter-spacing: -0.01em;
 color: #331B3B;
 }
 
+h1.titulo{
+  color:black;
+}
+
+.texto{
+  font-size: smaller;
+  display: inline-block;
+  vertical-align: top;
+}
+
 .cuerpo{
   padding: 10px;
 }
@@ -110,7 +120,7 @@ color: #331B3B;
   display: flex;
   height: 100vh;
   float: left;
-  width: 33%;
+  width: 23%;
   padding: 0 10px;
 }
 
@@ -129,4 +139,10 @@ color: #331B3B;
   box-shadow: 1px 1px 8px 4px #d3d3d3d1;
   /* border-radius:15px; */
   font-family: 'Hind Vadodara';
+}
+
+.Container{
+  display: flex;
+   height: 100vh;
+   justify-content: center;
 }
