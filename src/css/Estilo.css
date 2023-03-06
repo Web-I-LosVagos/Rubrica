@@ -90,3 +90,43 @@ nav .mobile .header a {
     display: block;
   }
 }
+
+h1{
+font-family: 'Hind Vadodara';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 110.8%;
+text-align: center;
+letter-spacing: -0.01em;
+color: #331B3B;
+}
+
+.cuerpo{
+  padding: 10px;
+}
+
+.column {
+  display: flex;
+  height: 100vh;
+  float: left;
+  width: 33%;
+  padding: 0 10px;
+}
+
+.card {
+  box-shadow: 0 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+}
+
+.tarjeta{
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between;
+  width:100%;
+  border: 1px solid lightgray;
+  box-shadow: 1px 1px 8px 4px #d3d3d3d1;
+  /* border-radius:15px; */
+  font-family: 'Hind Vadodara';
+}
