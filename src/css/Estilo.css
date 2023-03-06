@@ -205,7 +205,7 @@ font-style: normal;
 font-weight: 700;
 font-size: 48px;
 line-height: 110.8%;
-text-align: center;
+/* text-align: center; */
 letter-spacing: -0.01em;
 color: #331B3B;
 }
@@ -250,7 +250,9 @@ h1.titulo{
 }
 
 .Container{
-  background-image: url("../src/Rúbrica 1er corte - Landing Page/Rectangle 13.png");
+  /* Grid */
+  display: grid;
+  grid-template-columns: repeat(2 ,1fr);
   width: 78%;
   max-width: 1200px;
   margin: auto;
@@ -258,3 +260,12 @@ h1.titulo{
   height: 100vh;
    justify-content: center;
 }
+
+.titulo{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+/* .imag-derecha{
+  grid-template-areas:2 1fr;
+} */
