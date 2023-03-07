@@ -151,7 +151,8 @@ nav .mobile .header a {
 .aboutus {
   margin: auto;
   width: 100%;
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
   align-items: center;
   justify-content: space-around;
 }
@@ -167,6 +168,11 @@ button {
   color: #ffff;
   background-color: #331b3b;
   border-radius: 10px;
+}
+
+.parrafo{
+  /* width: 100px; */
+  margin-left: 200px;
 }
 
 /* SECCION RONALDO */
