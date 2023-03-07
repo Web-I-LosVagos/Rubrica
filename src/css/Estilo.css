@@ -121,13 +121,13 @@ nav .mobile .header a {
   margin-bottom: 5px;
 }
 
-.principio button {
+button {
   width: 180px;
   height: 50px;
   background-color: #331B3B;
   border: none;
   border-radius: 5px;
-  color: #eeee;
+  color: #ffff;
   cursor: pointer;
 }
 
@@ -148,31 +148,36 @@ nav .mobile .header a {
   color: #331b3b;
 }
 
-.aboutus {
+.parrafo{
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  width: 30%;
+  height: auto;
+  align-items: center;
+  justify-content: left;
+  margin: auto;
+  margin-top: 110px;
+  margin-left: 60%;
+}
+.parrafo h2 {
+  font-size: 50px;
+  color:  #331B3B;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 400;
+  margin-bottom: 5px;
+  margin-right: 200px;
+}
+
+.imgaboutus {
+  background-image: url("../Rúbrica 1er corte - Landing Page/Acercadenosotros.png");
+  background-repeat: no-repeat;
+  background-size: 900px;
+  background-position: left;
+  align-items: center;
+  justify-content: center;
   margin: auto;
   width: 100%;
-  display: grid;
-  grid-template-columns: repeat(2,1fr);
-  align-items: center;
-  justify-content: space-around;
-}
-
-.aboutus div img {
-  width: 900px;
-}
-
-button {
-  text-decoration: none;
-  width: 207px;
-  height: 66px;
-  color: #ffff;
-  background-color: #331b3b;
-  border-radius: 10px;
-}
-
-.parrafo{
-  /* width: 100px; */
-  margin-left: 200px;
+  height: 700px;
 }
 
 /* SECCION RONALDO */
