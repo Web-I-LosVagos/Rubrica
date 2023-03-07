@@ -138,8 +138,7 @@ button {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   /* font-weight: 400; */
   margin-bottom: 5px;
-  align-items: center;
-  justify-content: center;
+  text-align: center;
 }
 
 .yourbusiness h3{
