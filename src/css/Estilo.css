@@ -88,6 +88,49 @@ nav .mobile .header a {
   text-decoration: none;
   padding: 10px;
 }
+
+/* NAV Y SECCION 1*/
+.main {
+  background-image: url("../Rúbrica 1er corte - Landing Page/Group\ 3.png");
+  background-repeat: no-repeat;
+  background-size: 680px;
+  background-position: right;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  width: 100%;
+  height: 700px;
+}
+
+.principio {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  width: 90%;
+  height: auto;
+  align-items: center;
+  justify-content: left;
+  margin: auto;
+  margin-left: 100px;
+}
+
+.principio h2 {
+  font-size: 60px;
+  color:  #331B3B;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+
+.principio button {
+  width: 180px;
+  height: 50px;
+  background-color: #331B3B;
+  border: none;
+  border-radius: 5px;
+  color: #eeee;
+  cursor: pointer;
+}
+
 /* SECCION LUIS */
 .aboutus {
   display: grid;
@@ -128,13 +171,13 @@ button {
 
 /* SECCION RONALDO */
 .testament {
-  display: grid;
-  width: 100%;
-  grid-template-columns: repeat(1, 1fr);
-  height: auto;
-  margin-bottom: 65px;
-  align-items: center;
-  justify-content: center;
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(1, 1fr);
+    height: auto;
+    margin-bottom: 65px;
+    align-items: center;
+    justify-content: center;
 }
 
 .text {
@@ -145,8 +188,7 @@ button {
 
 .testament .text p {
   font-size: 38px;
-  font-style: normal;
-  color: #331b3b;
+  color:  #331B3B;
   text-align: center;
 }
 
@@ -196,9 +238,8 @@ button {
 .pie .formulario button {
   width: 180px;
   height: 30px;
-  background-color: #fe9a22;
+  background-color: #FE9A22;
   color: #eeee;
-  font-style: bold;
   cursor: pointer;
 }
 
@@ -225,7 +266,7 @@ button {
     display: block;
   }
 
-  .cards {
+ .comentarios {
     width: 80%;
     grid-template-columns: repeat(1, 1fr);
   }
