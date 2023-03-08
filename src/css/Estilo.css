@@ -46,7 +46,7 @@ nav ul li > a {
   text-decoration: none;
   padding: 20px 15px 10px 15px;
 
-  /* color: white; */
+  color: black;
 }
 
 nav ul li .link::before {
