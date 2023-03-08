@@ -131,6 +131,13 @@ button {
 }
 
 /* SECCION MAROLY */
+.jh{
+  margin-top: 15px;
+  margin-left: 15px;
+  border-radius: 5px;
+  width: 40px;
+}
+
 .yourbusiness h2 {
   font-size: 50px;
   color: #331b3b;
