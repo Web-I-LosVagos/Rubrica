@@ -121,7 +121,7 @@ nav .mobile .header a {
 .principio button {
   width: 180px;
   height: 50px;
-  background-color: #331B3B;
+  background-color: #331b3b;
   border: none;
   border-radius: 5px;
   color: #eeee;
@@ -131,7 +131,7 @@ nav .mobile .header a {
 .parrafo button {
   width: 180px;
   height: 50px;
-  background-color: #331B3B;
+  background-color: #331b3b;
   border: none;
   border-radius: 5px;
   color: #eeee;
@@ -139,7 +139,7 @@ nav .mobile .header a {
 }
 
 /* SECCION MAROLY */
-.jh{
+.jh {
   margin-top: 15px;
   margin-left: 15px;
   border-radius: 5px;
@@ -212,9 +212,9 @@ nav .mobile .header a {
 
 /* SECCION LUIS */
 .aboutus {
-  display: grid;
+  display: flex;
   width: 100%;
-  grid-template-columns: repeat(1, 1fr);
+  /* grid-template-columns: repeat(1, 1fr); */
   height: auto;
   margin-bottom: 65px;
   align-items: center;
@@ -228,8 +228,8 @@ nav .mobile .header a {
 }
 
 .parrafo {
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
+  /* display: flex; */
+  /* grid-template-columns: repeat(1, 1fr); */
   width: 30%;
   height: auto;
   align-items: center;
@@ -249,9 +249,10 @@ nav .mobile .header a {
 }
 
 .imgaboutus {
+  /* display: absolute; */
   background-image: url("../Rúbrica 1er corte - Landing Page/Acercadenosotros2.png");
   background-repeat: no-repeat;
-  background-size: 900px;
+  background-size: 800px;
   background-position: left;
   align-items: center;
   justify-content: center;
@@ -273,26 +274,26 @@ nav .mobile .header a {
   margin: auto;
 }
 
-.webs .text{
+.webs .text {
   width: 100%;
   display: flex;
   flex-wrap: unwrap;
   margin-right: auto;
-  color: #331B3B;
+  color: #331b3b;
 }
 
-.webs .text h3{
+.webs .text h3 {
   font-size: 38px;
-  color:  #331B3B;
+  color: #331b3b;
   text-align: left;
   justify-content: space-between;
   margin-right: 350px;
 }
 
-.webs .text p{
+.webs .text p {
   font-size: 18px;
-  color:  #331B3B;
-  text-align: left;;
+  color: #331b3b;
+  text-align: left;
 }
 
 .container-webs {
@@ -310,32 +311,32 @@ nav .mobile .header a {
   display: grid;
   grid-template-columns: repeat(2, 160px);
   margin-left: 15px;
-} 
+}
 
 .web-fin button {
   width: 120px;
   height: 20px;
   background-color: white;
-  color: #331B3B;
+  color: #331b3b;
   border-radius: 18px;
   font-size: 14px;
   font-weight: 600;
   cursor: pointer;
   margin-top: 18px;
   transition: all 0.3s ease-in-out;
-  border: 2px solid #331B3B;
+  border: 2px solid #331b3b;
   box-shadow: 0 0 0 0 black;
 }
 
 button:hover {
   transform: translateY(-4px) translateX(-2px);
   box-shadow: 2px 5px 0 0 black;
-};
+}
 
 button:active {
   transform: translateY(2px) translateX(1px);
   box-shadow: 0 0 0 0 black;
-};
+}
 
 /* SECCION RONALDO */
 .testament {
@@ -349,19 +350,19 @@ button:active {
 }
 
 .testament {
-    display: grid;
-    width: 100%;
-    grid-template-columns: repeat(1, 1fr);
-    height: auto;
-    margin-bottom: 65px;
-    align-items: center;
-    justify-content: center;
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(1, 1fr);
+  height: auto;
+  margin-bottom: 65px;
+  align-items: center;
+  justify-content: center;
 }
 
 .text {
-    align-items: center;
-    justify-content: center;
-    margin: auto;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
 }
 
 .testament .text p {
@@ -443,13 +444,13 @@ button:active {
   nav .mobile {
     display: block;
   }
-  
-   .webs {
+
+  .webs {
     width: 115%;
     height: auto;
   }
 
-  .webs .text{
+  .webs .text {
     display: grid;
     grid-template-columns: repeat(1, 300px);
   }
@@ -464,12 +465,12 @@ button:active {
     align-items: center;
     justify-content: space-around;
   }
-  
+
   .web-fin {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     margin-bottom: 45px;
-  } 
+  }
 
   .comentarios {
     width: 80%;
@@ -486,5 +487,15 @@ button:active {
   }
   .yourbusiness {
     background-image: none;
+  }
+  .webs {
+    background-image: none;
+  }
+  .parrafo {
+    margin-left: 40%;
+  }
+  .imgaboutus {
+    margin-top: 300px;
+    margin-bottom: 80px;
   }
 }
