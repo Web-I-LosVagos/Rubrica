@@ -46,7 +46,7 @@ nav ul li > a {
   text-decoration: none;
   padding: 20px 15px 10px 15px;
 
-  color: black;
+  /* color: white; */
 }
 
 nav ul li .link::before {
@@ -79,11 +79,11 @@ nav .mobile .header {
   text-align: end;
   justify-content: space-between;
   flex-direction: row;
-  
+  /* background-color: black; */
 }
 
 nav .mobile .header a {
-  color: black;
+  /* color: white; */
   display: inline-flex;
   text-decoration: none;
   padding: 10px;
@@ -115,86 +115,20 @@ nav .mobile .header a {
 
 .principio h2 {
   font-size: 60px;
-  color: #331b3b;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color:  #331B3B;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-weight: 400;
   margin-bottom: 5px;
 }
 
-button {
+.principio button {
   width: 180px;
   height: 50px;
-  background-color: #331b3b;
+  background-color: #331B3B;
   border: none;
   border-radius: 5px;
-  color: #ffff;
+  color: #eeee;
   cursor: pointer;
-}
-
-/* SECCION MAROLY */
-
-.yourbusiness h2 {
-  font-size: 50px;
-  color: #331b3b;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-weight: 400;
-  margin-bottom: -80px;
-}
-
-.yourbusiness .text1 {
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  margin: auto;
-}
-
-.yourbusiness {
-  background-image: url("../Rúbrica 1er corte - Landing Page/Group\ 4.png");
-  background-repeat: no-repeat;
-  background-size: 100%;
-  background-position: left;
-  align-items: center;
-  justify-content: center;
-  margin: auto;
-  width: 100%;
-  height: 700px;
-}
-
-.yourbusiness h3 {
-  color: #331b3b;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  align-items: center;
-  justify-content: center;
-  margin: 10px;
-}
-
-.yourbusiness p {
-  font-style: normal;
-  color: #331b3b;
-  margin: 10px;
-}
-
-.yourbusiness .cards {
-  margin: 0 auto;
-  float: center;
-  width: 60%;
-  height: auto;
-  display: grid;
-  grid-template-columns: repeat(3, 380px);
-  align-items: center;
-  justify-content: space-around;
-  margin-top: 150px;
-}
-
-.yourbusiness .box {
-  width: 90%;
-  height: 230px;
-  background-color: rgb(253, 253, 253);
-  overflow: hidden;
-  margin: 25px 0 0 35px;
-  border-radius: 6px;
-  overflow: hidden;
-  box-shadow: 0px 1px 10px rgb(160, 158, 158);
 }
 
 /* SECCION LUIS */
@@ -214,48 +148,42 @@ button {
   color: #331b3b;
 }
 
-.parrafo {
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-  width: 30%;
-  height: auto;
-  align-items: center;
-  justify-content: left;
-  margin: auto;
-  margin-top: 110px;
-  margin-left: 60%;
-}
-
-.parrafo h2 {
-  font-size: 50px;
-  color: #331b3b;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-weight: 400;
-  margin-bottom: 5px;
-  margin-right: 200px;
-}
-
-.imgaboutus {
-  background-image: url("../Rúbrica 1er corte - Landing Page/Acercadenosotros2.png");
-  background-repeat: no-repeat;
-  background-size: 900px;
-  background-position: left;
-  align-items: center;
-  justify-content: center;
+.aboutus {
   margin: auto;
   width: 100%;
-  height: 700px;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  align-items: center;
+  justify-content: space-around;
+}
+
+.aboutus div img {
+  width: 900px;
+}
+
+button {
+  text-decoration: none;
+  width: 207px;
+  height: 66px;
+  color: #ffff;
+  background-color: #331b3b;
+  border-radius: 10px;
+}
+
+.parrafo{
+  /* width: 100px; */
+  margin-left: 200px;
 }
 
 /* SECCION RONALDO */
 .testament {
-  display: grid;
-  width: 100%;
-  grid-template-columns: repeat(1, 1fr);
-  height: auto;
-  margin-bottom: 65px;
-  align-items: center;
-  justify-content: center;
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(1, 1fr);
+    height: auto;
+    margin-bottom: 65px;
+    align-items: center;
+    justify-content: center;
 }
 
 .text {
@@ -266,7 +194,7 @@ button {
 
 .testament .text p {
   font-size: 38px;
-  color: #331b3b;
+  color:  #331B3B;
   text-align: center;
 }
 
@@ -316,7 +244,7 @@ button {
 .pie .formulario button {
   width: 180px;
   height: 30px;
-  background-color: #fe9a22;
+  background-color: #FE9A22;
   color: #eeee;
   cursor: pointer;
 }
@@ -344,7 +272,7 @@ button {
     display: block;
   }
 
-  .comentarios {
+ .comentarios {
     width: 80%;
     grid-template-columns: repeat(1, 1fr);
   }
@@ -352,12 +280,5 @@ button {
   .pie {
     width: 110%;
     grid-template-columns: repeat(1, 1fr);
-  }
-
-  .yourbusiness .cards {
-    grid-template-columns: repeat(1, 1fr);
-  }
-  .yourbusiness {
-    background-image: none;
   }
 }
