@@ -20,8 +20,6 @@ body {
   padding: 0;
   margin: 0;
   line-height: 1.5;
-
-  /* background-color: black; */
 }
 
 /* NAVBAR ESCRITORIO */
@@ -252,6 +250,83 @@ button {
   height: 700px;
 }
 
+/* SECCION ALDO*/
+.webs {
+  background-image: url("../Rúbrica 1er corte - Landing Page/Rectangle 13.png");
+  background-repeat: no-repeat;
+  background-size: 1400px;
+  background-position: right;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 500px;
+  margin: auto;
+}
+
+.webs .text{
+  width: 100%;
+  display: flex;
+  flex-wrap: unwrap;
+  margin-right: auto;
+  color: #331B3B;
+}
+
+.webs .text h3{
+  font-size: 38px;
+  color:  #331B3B;
+  text-align: left;
+  justify-content: space-between;
+  margin-right: 350px;
+}
+
+.webs .text p{
+  font-size: 18px;
+  color:  #331B3B;
+  text-align: left;;
+}
+
+.container-webs {
+  margin: 0 auto;
+  float: center;
+  width: 60%;
+  height: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 300px);
+  align-items: center;
+  justify-content: space-around;
+}
+
+.web-fin {
+  display: grid;
+  grid-template-columns: repeat(2, 160px);
+  margin-left: 15px;
+} 
+
+.web-fin button {
+  width: 120px;
+  height: 20px;
+  background-color: white;
+  color: #331B3B;
+  border-radius: 18px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 18px;
+  transition: all 0.3s ease-in-out;
+  border: 2px solid #331B3B;
+  box-shadow: 0 0 0 0 black;
+}
+
+button:hover {
+  transform: translateY(-4px) translateX(-2px);
+  box-shadow: 2px 5px 0 0 black;
+};
+
+button:active {
+  transform: translateY(2px) translateX(1px);
+  box-shadow: 0 0 0 0 black;
+};
+
 /* SECCION RONALDO */
 .testament {
   display: grid;
@@ -263,10 +338,20 @@ button {
   justify-content: center;
 }
 
+.testament {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(1, 1fr);
+    height: auto;
+    margin-bottom: 65px;
+    align-items: center;
+    justify-content: center;
+}
+
 .text {
-  align-items: center;
-  justify-content: center;
-  margin: auto;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
 }
 
 .testament .text p {
@@ -275,7 +360,7 @@ button {
   text-align: center;
 }
 
-.cards {
+.comentarios {
   margin: 0 auto;
   float: center;
   width: 60%;
@@ -348,6 +433,33 @@ button {
   nav .mobile {
     display: block;
   }
+  
+   .webs {
+    width: 115%;
+    height: auto;
+  }
+
+  .webs .text{
+    display: grid;
+    grid-template-columns: repeat(1, 300px);
+  }
+
+  .container-webs {
+    margin: 0 auto;
+    float: center;
+    width: 60%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .web-fin {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 45px;
+  } 
 
   .comentarios {
     width: 80%;
