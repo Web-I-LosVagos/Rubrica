@@ -132,16 +132,23 @@ button {
 }
 
 /* SECCION MAROLY */
-.yourbusiness h2{
+
+.yourbusiness h2 {
   font-size: 35px;
   color: #331b3b;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  /* font-weight: 400; */
+  font-weight: 400;
   margin-bottom: 5px;
-  text-align: center;
 }
 
-.yourbusiness h3{
+.yourbusiness .text1 {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+}
+
+.yourbusiness h3 {
   color: #331b3b;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   align-items: center;
@@ -177,7 +184,6 @@ button {
   align-items: center;
   justify-content: space-around;
   margin-top: 150px;
-
 }
 
 .yourbusiness .box {
@@ -229,7 +235,7 @@ button {
 }
 
 .imgaboutus {
-  background-image: url("../Rúbrica 1er corte - Landing Page/Acercadenosotros.png");
+  background-image: url("../Rúbrica 1er corte - Landing Page/Acercadenosotros2.png");
   background-repeat: no-repeat;
   background-size: 900px;
   background-position: left;
