@@ -79,11 +79,10 @@ nav .mobile .header {
   text-align: end;
   justify-content: space-between;
   flex-direction: row;
-  /* background-color: black; */
 }
 
 nav .mobile .header a {
-  /* color: white; */
+  color: black;
   display: inline-flex;
   text-decoration: none;
   padding: 10px;
@@ -148,6 +147,18 @@ button {
   margin: auto;
 }
 
+.yourbusiness {
+  background-image: url("../Rúbrica 1er corte - Landing Page/Group\ 4.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: left;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  width: 100%;
+  height: 700px;
+}
+
 .yourbusiness h3 {
   color: #331b3b;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
@@ -160,18 +171,6 @@ button {
   font-style: normal;
   color: #331b3b;
   margin: 10px;
-}
-
-.yourbusiness {
-  background-image: url("../Rúbrica 1er corte - Landing Page/Group\ 4.png");
-  background-repeat: no-repeat;
-  background-size: 100%;
-  background-position: left;
-  align-items: center;
-  justify-content: center;
-  margin: auto;
-  width: 100%;
-  height: 700px;
 }
 
 .yourbusiness .cards {
@@ -225,6 +224,7 @@ button {
   margin-top: 110px;
   margin-left: 60%;
 }
+
 .parrafo h2 {
   font-size: 50px;
   color: #331b3b;
@@ -351,5 +351,12 @@ button {
   .pie {
     width: 110%;
     grid-template-columns: repeat(1, 1fr);
+  }
+
+  .yourbusiness .cards {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .yourbusiness {
+    background-image: none;
   }
 }
